@@ -10,6 +10,7 @@
     align-items: center;
 
 }
+
 .modal_map_wrapper {
     display: flex;
     align-items: center;
@@ -35,7 +36,7 @@
 
 }
 
-h3{
+h3 {
     color: red;
     border: 3px solid red;
     padding: 10px;
@@ -51,11 +52,11 @@ h3{
     align-items: center;
 }
 
-.modal_map_bg img{
+.modal_map_bg img {
     max-width: 880px;
     max-height: 600px;
     margin: 70px;
-    
+
 }
 
 .modal_map_content {
@@ -67,8 +68,8 @@ h3{
     max-width: 620px;
 }
 
-.modal_map_content h2{
-    font-family: 'Luckiest Guy';
+.modal_map_content h2 {
+    font-family: 'Merriweather';
     font-weight: 400;
     font-size: 32px;
     align-items: center;
@@ -76,7 +77,8 @@ h3{
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.modal_map_content p{
+
+.modal_map_content p {
     font-family: 'Merriweather';
     font-style: normal;
     font-weight: 700;
@@ -105,9 +107,10 @@ h3{
     fill: red;
 }
 
-.map_block{
+.map_block {
     position: relative;
 }
+
 .map_block h1 {
     font-family: 'Luckiest Guy';
     font-weight: 400;
@@ -125,10 +128,11 @@ h3{
 .point_1 {
     position: absolute;
     top: 50%;
-    left: 50%; 
+    left: 50%;
     cursor: pointer;
 }
-.point_1 svg{
+
+.point_1 svg {
     position: relative;
     transition: all 0.5s ease;
 }
@@ -142,11 +146,12 @@ h3{
     z-index: 2;
 }
 
-.point_1:hover  img {
+.point_1:hover img {
     display: flex;
     transition: all 0.5s ease;
 }
-.point_1:hover  svg {
+
+.point_1:hover svg {
     fill: rgb(64, 231, 209);
 
 }
@@ -154,12 +159,12 @@ h3{
 .point_2 {
     position: absolute;
     top: 20%;
-    left: 40%; 
+    left: 40%;
     cursor: pointer;
 
 }
 
-.point_2 svg{
+.point_2 svg {
     position: relative;
     transition: all 0.5s ease;
 }
@@ -177,6 +182,7 @@ h3{
     display: flex;
     transition: all 0.5s ease;
 }
+
 .point_2:hover svg {
     fill: rgb(64, 231, 209);
 }
@@ -185,12 +191,12 @@ h3{
 .point_3 {
     position: absolute;
     top: 80%;
-    left: 60%; 
+    left: 60%;
     cursor: pointer;
 
 }
 
-.point_3 svg{
+.point_3 svg {
     position: relative;
     transition: all 0.5s ease;
 }
@@ -208,6 +214,7 @@ h3{
     display: flex;
     transition: all 0.5s ease;
 }
+
 .point_3:hover svg {
     fill: rgb(64, 231, 209);
 }
@@ -215,13 +222,13 @@ h3{
 .point_4 {
     position: absolute;
     top: 20%;
-    left: 70%; 
+    left: 70%;
     cursor: pointer;
 
 }
 
 
-.point_4 svg{
+.point_4 svg {
     position: relative;
     transition: all 0.5s ease;
 }
@@ -239,18 +246,20 @@ h3{
     display: flex;
     transition: all 0.5s ease;
 }
+
 .point_4:hover svg {
     fill: rgb(64, 231, 209);
 }
+
 .point_5 {
     position: absolute;
     top: 60%;
-    left: 20%; 
+    left: 20%;
     cursor: pointer;
 
 }
 
-.point_5 svg{
+.point_5 svg {
     position: relative;
     transition: all 0.5s ease;
 }
@@ -268,6 +277,7 @@ h3{
     display: flex;
     transition: all 0.5s ease;
 }
+
 .point_5:hover svg {
     fill: rgb(64, 231, 209);
 }

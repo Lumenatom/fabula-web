@@ -30,7 +30,7 @@ function Home({setActivePage}) {
     <hr/>
     <Feedback/>
     <hr/>
-    <FooterBlock/>
+    <FooterBlock setActivePage={setActivePage}/>
     </>
   )
 }

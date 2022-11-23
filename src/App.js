@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import Collaborate from './Collaborate/Collaborate';
 import Contact from './Contact/Contact';
+import Docs from './Docs/Docs';
 import Header from './Header/Header';
 import Home from './Home/Home';
 
@@ -14,6 +15,9 @@ function App() {
     if(activePage == 'collaborate'){
       return  <Collaborate/>
     }
+    if(activePage == 'docs'){
+      return  <Docs/>
+    }
     if(activePage == 'contact'){
       return  <Contact/>
     } return null
@@ -21,7 +25,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header setActivePage={setActivePage}/>
+      <Header setActivePage={setActivePage} activePage={activePage}/>
       {
         renderElement()
       }

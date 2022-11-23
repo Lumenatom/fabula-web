@@ -6,7 +6,7 @@
 .collaborate_wrapper {
     width: 100vw;
     height: 100vh;
-    
+
 }
 
 
@@ -27,6 +27,7 @@
     gap: 85px;
     padding-top: 100px;
 }
+
 .collaborate_content a {
     display: flex;
     justify-content: center;
@@ -38,7 +39,7 @@
 }
 
 
-.collaborate_left_block{
+.collaborate_left_block {
     width: 529px;
     height: 492px;
     background: rgba(217, 217, 217, 0.44);
@@ -46,35 +47,36 @@
     border-radius: 70px;
     position: relative;
 }
+
 .collaborate_left_block button {
     position: absolute;
-width: 300px;
-height: 70px;
-top: -6%;
-left: 23%;
-background: #FED494;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 25px;
-font-family: 'Luckiest Guy';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 32px;
-color: #583333;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border: none;
+    width: 300px;
+    height: 70px;
+    top: -6%;
+    left: 23%;
+    background: #FED494;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    font-family: 'Luckiest Guy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+    color: #583333;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
 }
 
-.collaborate_left_block_content h2{
+.collaborate_left_block_content h2 {
     margin-top: 80px;
-    font-family: 'Kadwa';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 40px;
-text-align: center;
-color: #FFFFFF;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .collaborate_left_block_content {
@@ -101,11 +103,11 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.collaborate_left_block_content a{
+.collaborate_left_block_content a {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Kadwa';
+    font-family: 'Merriweather';
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
@@ -124,7 +126,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 
 
-.collaborate_right_block{
+.collaborate_right_block {
     width: 529px;
     height: 492px;
     background: rgba(217, 217, 217, 0.44);
@@ -135,33 +137,33 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 .collaborate_right_block button {
     position: absolute;
-width: 300px;
-height: 70px;
-top: -6%;
-left: 23%;
-background: #FED494;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 25px;
-font-family: 'Luckiest Guy';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 32px;
-color: #583333;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border: none;
+    width: 300px;
+    height: 70px;
+    top: -6%;
+    left: 23%;
+    background: #FED494;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    font-family: 'Luckiest Guy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+    color: #583333;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
 }
 
-.collaborate_right_block_content h2{
+.collaborate_right_block_content h2 {
     margin-top: 80px;
-    font-family: 'Kadwa';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 40px;
-text-align: center;
-color: #FFFFFF;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .collaborate_right_block_content {
@@ -189,11 +191,11 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.collaborate_right_block_content a{
+.collaborate_right_block_content a {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Kadwa';
+    font-family: 'Merriweather';
     font-style: normal;
     font-weight: 400;
     font-size: 25px;

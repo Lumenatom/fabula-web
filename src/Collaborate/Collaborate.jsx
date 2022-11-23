@@ -32,7 +32,7 @@ function Collaborate() {
                                     grab the opportunity to get the first NFTs and tokens of the project
                                     </li>
                                 </ul>
-                                <a href="#">
+                                <a href="https://www.patreon.com/user?u=83163699" target="_blank">
                                 <img src={PatreonImg}></img> 
                                 </a>                           
                              </div>
@@ -57,7 +57,7 @@ function Collaborate() {
                                     gain fame and respect
                                     </li>
                                 </ul>
-                                <a href="#">
+                                <a href="https://www.patreon.com/user?u=83163699" target="_blank">
                                 <img src={PatreonImg}></img>
                                 </a>
                             </div>

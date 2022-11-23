@@ -36,5 +36,12 @@
     color: #fff;
     background-color: #FED494;
     border-radius: 50px;
-    transition:  all 1s ease;
+    transition:  all 0.5s ease;
 }
+
+
+.nav .active {
+    background-color: #FED494;
+    color: #fff;
+    border-radius: 50px;
+  }

@@ -6,7 +6,7 @@ import Linkedin from "../../img/linkedin_logo.svg"
 import Discord from "../../img/discord.svg"
 
 
-const FooterBlock = () => {
+const FooterBlock = ({setActivePage}) => {
 return (
     <div className='footer'>
             <div className='footer_wrapper'>
@@ -32,8 +32,8 @@ return (
                         </div>
                         <div className="links_footer">
                             <a href="#">COMMUNITY</a>
-                            <a href="#">DOCS</a>
-                            <a href="#">CONTACT</a>
+                            <a onClick={()=>setActivePage('docs')}>DOCS</a>
+                            <a onClick={()=>setActivePage('contact')}>CONTACT</a>
                             <a href="#">COOKIE DECLARATION</a>
                             <a href="#">PRIVACY POLICY</a>
                         </div>

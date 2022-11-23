@@ -24,12 +24,23 @@
 }
 
 .workspace_content {
-display: flex;
-flex-direction: column;
-align-items: center;
+    display: flex;
+    align-items: center;
+    gap: 50px;
 }
 
-.workspace_content h2{
+.workspace_content img {
+    max-width: 750px;
+    border-radius: 20px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.workspace_content .description h2 {
     font-family: 'Luckiest Guy';
     font-style: normal;
     font-weight: 400;
@@ -39,38 +50,40 @@ align-items: center;
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.workspace_content ul li{
-text-align: start;
-font-family: 'Kadwa';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 48px;
-color: #FFFFFF;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+.workspace_content .description ul li {
+    text-align: start;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 48px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.workspace_content a{
+.workspace_content .description a {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Kadwa';
+    font-family: 'Merriweather';
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
     line-height: 50px;
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-width: 284px;
-height: 63px;
-background: #FED494;
-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
-border-radius: 50px;
-text-decoration: none;
-margin-top: 85px;
-transition: all 0.3s linear;
+    width: 284px;
+    height: 63px;
+    background: #FED494;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    text-decoration: none;
+    margin-top: 85px;
+    transition: all 0.3s linear;
 }
-.workspace_content a:hover{
+
+.workspace_content .description a:hover {
     background: #FFF;
     color: #4F4F4F;
 }

@@ -1,9 +1,11 @@
 import React from "react";
 import './GameDesignDeck.css'
+import Screen_2 from "../../img/screen_2.png"
+import Screen_1 from "../../img/screen_1.png"
 
 const GameDesignDeck = () => {
 
-    return(
+    return (
         <div className='gameDesignDeck'>
             <div className='gameDesignDeck_wrapper'>
                 <div className='container'>
@@ -12,23 +14,24 @@ const GameDesignDeck = () => {
                             <button>Mobile to grow</button>
                             <div className="left_block_content">
                                 <h2>
-                                Grow your own world by playing a DnD like game
+                                    Grow your own world by playing a DnD like game
                                 </h2>
                                 <ul>
                                     <li>
-                                    mobile game in pati
+                                        mobile game in pati
                                     </li>
                                     <li>
-                                    companies as in DnD
+                                        companies as in DnD
                                     </li>
                                     <li>
-                                    endless space for fantasy
+                                        endless space for fantasy
                                     </li>
                                 </ul>
+                                <img src={Screen_2} alt="" />
                                 <a href="#">
-                                Game Design Deck
-                                </a>                           
-                             </div>
+                                    Game Design Deck
+                                </a>
+                            </div>
                         </div>
                         <div className="right_block">
                             <button>MMO RPG to live</button>
@@ -38,17 +41,18 @@ const GameDesignDeck = () => {
                                 </h2>
                                 <ul>
                                     <li>
-                                    story generator
+                                        story generator
                                     </li>
                                     <li>
-                                    live NPCs
+                                        live NPCs
                                     </li>
                                     <li>
-                                    dynamic living world
+                                        dynamic living world
                                     </li>
                                 </ul>
+                                <img src={Screen_1} alt="" />
                                 <a href="#">
-                                Game Design Deck
+                                    Game Design Deck
                                 </a>
                             </div>
                         </div>

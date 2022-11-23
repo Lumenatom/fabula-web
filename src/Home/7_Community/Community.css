@@ -26,35 +26,37 @@
 .community_content {
     display: flex;
     flex-direction: column;
-align-items: center;   
- flex-wrap: wrap;
+    align-items: center;
+    flex-wrap: wrap;
     gap: 85px;
 }
+
 .community_content a {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 218.6px;
-height: 61.7px;
-background: #FED494;
-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
-border-radius: 50px;
-font-family: 'Kadwa';
-font-style: normal;
-font-weight: 400;
-font-size: 25px;
-line-height: 50px;
-color: #FFFFFF;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-cursor: pointer;
-transition: all 0.3s linear;
+    height: 61.7px;
+    background: #FED494;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 50px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transition: all 0.3s linear;
 }
-.community_content a:hover{
+
+.community_content a:hover {
     background: #FFFFFF;
     color: #4F4F4F;
 }
 
-.left_block_community{
+.left_block_community {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,23 +68,24 @@ transition: all 0.3s linear;
     margin-bottom: 90px;
     position: relative;
 }
+
 .left_block_community button {
     position: absolute;
-width: 100%;
-height: 70px;
-top: -6%;
-left: 0%;
-background: #FED494;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 25px;
-font-family: 'Luckiest Guy';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 32px;
-color: #FFFFFF;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border: none;
+    width: 100%;
+    height: 70px;
+    top: -6%;
+    left: 0%;
+    background: #FED494;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    font-family: 'Luckiest Guy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
 }
 
 
@@ -96,7 +99,7 @@ border: none;
 
 .left_block_content_community ul li {
     text-align: start;
-    font-family: 'Kadwa';
+    font-family: 'Merriweather';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -105,28 +108,28 @@ border: none;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.left_block_content_community a{
+.left_block_content_community a {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 187px;
-    height: 63px;    
+    height: 63px;
     background: #FFFFFF;
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
     border-radius: 50px;
-border-radius: 50px;
-text-decoration: none;
-margin-top: 15px;
-transition: all 0.3s linear;
-color: #4F4F4F;
+    border-radius: 50px;
+    text-decoration: none;
+    margin-top: 15px;
+    transition: all 0.3s linear;
+    color: #4F4F4F;
 }
 
-.left_block_content_community a:hover{
+.left_block_content_community a:hover {
     background: #FED494;
     color: #4F4F4F;
 }
 
-.right_block_community{
+.right_block_community {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -142,21 +145,21 @@ color: #4F4F4F;
 
 .right_block_community button {
     position: absolute;
-width: 100%;
-height: 70px;
-top: -6%;
-left: 0%;
-background: #FED494;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 25px;
-font-family: 'Luckiest Guy';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 32px;
-color: #FFFFFF;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border: none;
+    width: 100%;
+    height: 70px;
+    top: -6%;
+    left: 0%;
+    background: #FED494;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    font-family: 'Luckiest Guy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
 }
 
 
@@ -169,66 +172,73 @@ border: none;
 }
 
 .right_block_content_community ul li {
-text-align: start;
-font-family: 'Kadwa';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 35px;
-color: #FFFFFF;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: start;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.right_block_content_community a{
+.right_block_content_community a {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Kadwa';
-font-style: normal;
-font-weight: 400;
-font-size: 25px;
-line-height: 50px;
-color: #4F4F4F;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-width: 187px;
-height: 63px;
-background: #FFFFFF;
-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
-border-radius: 50px;
-text-decoration: none;
-margin-top: 15px;
-transition: all 0.3s linear;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 50px;
+    color: #4F4F4F;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 187px;
+    height: 63px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    text-decoration: none;
+    margin-top: 15px;
+    transition: all 0.3s linear;
 }
-.right_block_content_community a:hover{
+
+.right_block_content_community a:hover {
     background: #FED494;
     color: #4F4F4F;
 }
-.wraper_blocks_community{
+
+.wraper_blocks_community {
     display: flex;
-gap: 80px;
+    gap: 80px;
 }
-.title_comunity{
+
+.title_comunity {
     font-family: 'Luckiest Guy';
-font-style: normal;
-font-weight: 400;
-font-size: 48px;
-line-height: 48px;
-text-align: justify;
-color: #FFFFFF;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-margin: 100px 0 0 0 ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: justify;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 100px 0 0 0;
 }
-.dcp_icon{
+
+.dcp_icon {
     position: absolute;
     bottom: -8%;
 }
-.dcp_icon img{
+
+.dcp_icon img {
     width: 250px;
 }
-.discord_icon{
+
+.discord_icon {
     position: absolute;
     bottom: -8%;
 }
-.discord_icon img{
+
+.discord_icon img {
     width: 250px;
 }
