@@ -1,0 +1,40 @@
+.header {
+    background-color: rgba(255, 255, 255, 70%);
+    height: 80px;
+    width: 100%;
+    position: fixed;  
+    z-index: 999;
+}
+
+.header_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header_container img{
+    cursor: pointer;
+}
+.nav {
+    display: flex;
+    gap: 10px;
+}
+
+.nav a {
+    color: #3A3333;
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    padding: 12px 25px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.nav a:hover {
+    color: #fff;
+    background-color: #FED494;
+    border-radius: 50px;
+    transition:  all 1s ease;
+}

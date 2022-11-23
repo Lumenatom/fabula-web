@@ -1,0 +1,126 @@
+.contact {
+    width: 100vw;
+    height: 100vh;
+}
+
+.contact_wrapper {
+    width: 100vw;
+    height: 100vh; 
+}
+
+
+.container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    height: 100%;
+}
+
+.contact_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-top: 100px;
+}
+
+.contact_content h2 {
+    font-family: 'Luckiest Guy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 32px;
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+} 
+
+.contact_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 492px;
+    background: rgba(217, 217, 217, 0.44);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 70px;
+    position: relative;
+    gap: 20px;
+}
+
+.contact_form_name {
+    width: 592px;
+    height: 25px;
+    border: none;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 20px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+}
+
+.contact_form_email {
+    width: 592px;
+    height: 25px;
+    border: none;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 20px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+}
+
+.contact_form_text {
+    width: 592px;
+    height: 200px;
+    border: none;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 20px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+    resize: none;
+}
+
+.contact_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 218.6px;
+    height: 61.7px;
+    background: #FED494;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    font-family: 'Kadwa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 50px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.contact_btn:hover{
+    background: #FFFFFF;
+    color: #4F4F4F;
+}

@@ -1,0 +1,211 @@
+.collaborate {
+    width: 100vw;
+    height: 100vh;
+}
+
+.collaborate_wrapper {
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+
+.container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    height: 100%;
+}
+
+.collaborate_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 85px;
+    padding-top: 100px;
+}
+.collaborate_content a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 218.6px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+.collaborate_left_block{
+    width: 529px;
+    height: 492px;
+    background: rgba(217, 217, 217, 0.44);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 70px;
+    position: relative;
+}
+.collaborate_left_block button {
+    position: absolute;
+width: 300px;
+height: 70px;
+top: -6%;
+left: 23%;
+background: #FED494;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 25px;
+font-family: 'Luckiest Guy';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 32px;
+color: #583333;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border: none;
+}
+
+.collaborate_left_block_content h2{
+    margin-top: 80px;
+    font-family: 'Kadwa';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 40px;
+text-align: center;
+color: #FFFFFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.collaborate_left_block_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.collaborate_left_block_content ul {
+    margin-top: 100px;
+}
+
+.collaborate_left_block_content ul li {
+    max-width: 430px;
+    text-align: start;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.collaborate_left_block_content a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kadwa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 50px;
+    color: #4F4F4F;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 284px;
+    height: 63px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    text-decoration: none;
+    margin-top: 85px;
+    transition: all 0.3s linear;
+}
+
+
+
+.collaborate_right_block{
+    width: 529px;
+    height: 492px;
+    background: rgba(217, 217, 217, 0.44);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 70px;
+    position: relative;
+}
+
+.collaborate_right_block button {
+    position: absolute;
+width: 300px;
+height: 70px;
+top: -6%;
+left: 23%;
+background: #FED494;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 25px;
+font-family: 'Luckiest Guy';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 32px;
+color: #583333;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border: none;
+}
+
+.collaborate_right_block_content h2{
+    margin-top: 80px;
+    font-family: 'Kadwa';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 40px;
+text-align: center;
+color: #FFFFFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.collaborate_right_block_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.collaborate_right_block_content ul {
+    margin-top: 100px;
+}
+
+.collaborate_right_block_content ul li {
+    top: 50px;
+    max-width: 430px;
+    text-align: start;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.collaborate_right_block_content a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kadwa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 50px;
+    color: #4F4F4F;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 284px;
+    height: 63px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    text-decoration: none;
+    margin-top: 160px;
+    transition: all 0.3s linear;
+}
