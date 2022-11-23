@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fabula-web/static/css/main.ae02f03f.css",
-    "main.js": "/fabula-web/static/js/main.91a87e03.js",
+    "main.css": "/fabula-web/static/css/main.761e996c.css",
+    "main.js": "/fabula-web/static/js/main.7e7f5e35.js",
     "static/media/bg.png": "/fabula-web/static/media/bg.1daf1a732c939109a67f.png",
     "static/media/history_3.png": "/fabula-web/static/media/history_3.d0cef511017fae473e34.png",
     "static/media/history_4.png": "/fabula-web/static/media/history_4.1ac4b1c9ec4372ab8a61.png",
@@ -50,11 +50,11 @@
     "static/media/arrow_icon_right.svg": "/fabula-web/static/media/arrow_icon_right.15655edb6ea7eb4337e5d71a3a31656c.svg",
     "static/media/point_map_icon.svg": "/fabula-web/static/media/point_map_icon.dbee858fdd129035eedc2893888c43f1.svg",
     "static/media/arrow_icon_left.svg": "/fabula-web/static/media/arrow_icon_left.539dbfa330228c981f76222396420296.svg",
-    "main.ae02f03f.css.map": "/fabula-web/static/css/main.ae02f03f.css.map",
-    "main.91a87e03.js.map": "/fabula-web/static/js/main.91a87e03.js.map"
+    "main.761e996c.css.map": "/fabula-web/static/css/main.761e996c.css.map",
+    "main.7e7f5e35.js.map": "/fabula-web/static/js/main.7e7f5e35.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae02f03f.css",
-    "static/js/main.91a87e03.js"
+    "static/css/main.761e996c.css",
+    "static/js/main.7e7f5e35.js"
   ]
 }
