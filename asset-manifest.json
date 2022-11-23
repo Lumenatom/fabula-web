@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/fabula-web/static/css/main.761e996c.css",
-    "main.js": "/fabula-web/static/js/main.7e7f5e35.js",
+    "main.css": "/fabula-web/static/css/main.2f014381.css",
+    "main.js": "/fabula-web/static/js/main.e70f67b3.js",
     "static/media/bg.png": "/fabula-web/static/media/bg.1daf1a732c939109a67f.png",
     "static/media/history_3.png": "/fabula-web/static/media/history_3.d0cef511017fae473e34.png",
+    "static/media/smerta.png": "/fabula-web/static/media/smerta.52d8e9de5f00bdb64215.png",
     "static/media/history_4.png": "/fabula-web/static/media/history_4.1ac4b1c9ec4372ab8a61.png",
     "static/media/history_5.png": "/fabula-web/static/media/history_5.468a529b92d85f66ac7f.png",
     "static/media/heroes_1.png": "/fabula-web/static/media/heroes_1.31e3b290f79e6d5d4e64.png",
     "static/media/history_6.png": "/fabula-web/static/media/history_6.174c42525fa2cb9125fc.png",
     "static/media/heroes_2.png": "/fabula-web/static/media/heroes_2.e6f5fdc244c2080e4c15.png",
     "static/media/map.png": "/fabula-web/static/media/map.513c8402c23a20289d28.png",
+    "static/media/screen_1.png": "/fabula-web/static/media/screen_1.6c8d17503eb6d9576031.png",
     "static/media/2_landskape_map.png": "/fabula-web/static/media/2_landskape_map.323c0e037069d1e18433.png",
     "static/media/heroes_5.png": "/fabula-web/static/media/heroes_5.752dd108811855ad814e.png",
     "static/media/heroes_3.png": "/fabula-web/static/media/heroes_3.2bd639a0ac0c6f56a2db.png",
@@ -17,6 +19,7 @@
     "static/media/heroes_4.png": "/fabula-web/static/media/heroes_4.4d759a896a4bd235e68f.png",
     "static/media/3_landskape_map.png": "/fabula-web/static/media/3_landskape_map.e445a52b1a5aadcb82fe.png",
     "static/media/character_left_people.png": "/fabula-web/static/media/character_left_people.2f74605a3621ae4d81e7.png",
+    "static/media/screen_2.png": "/fabula-web/static/media/screen_2.fbc9ba8dcdeb5478e520.png",
     "static/media/5_landskape_map.png": "/fabula-web/static/media/5_landskape_map.c8419bc26b2af9d99785.png",
     "static/media/4_landskape_map.png": "/fabula-web/static/media/4_landskape_map.811a4972df9c646a0aef.png",
     "static/media/1_landskape_map.png": "/fabula-web/static/media/1_landskape_map.63427bb3b9ed6b39ae28.png",
@@ -50,11 +53,11 @@
     "static/media/arrow_icon_right.svg": "/fabula-web/static/media/arrow_icon_right.15655edb6ea7eb4337e5d71a3a31656c.svg",
     "static/media/point_map_icon.svg": "/fabula-web/static/media/point_map_icon.dbee858fdd129035eedc2893888c43f1.svg",
     "static/media/arrow_icon_left.svg": "/fabula-web/static/media/arrow_icon_left.539dbfa330228c981f76222396420296.svg",
-    "main.761e996c.css.map": "/fabula-web/static/css/main.761e996c.css.map",
-    "main.7e7f5e35.js.map": "/fabula-web/static/js/main.7e7f5e35.js.map"
+    "main.2f014381.css.map": "/fabula-web/static/css/main.2f014381.css.map",
+    "main.e70f67b3.js.map": "/fabula-web/static/js/main.e70f67b3.js.map"
   },
   "entrypoints": [
-    "static/css/main.761e996c.css",
-    "static/js/main.7e7f5e35.js"
+    "static/css/main.2f014381.css",
+    "static/js/main.e70f67b3.js"
   ]
 }
