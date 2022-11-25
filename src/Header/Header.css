@@ -2,7 +2,7 @@
     background-color: rgba(255, 255, 255, 70%);
     height: 80px;
     width: 100%;
-    position: fixed;  
+    position: fixed;
     z-index: 999;
 }
 
@@ -14,9 +14,10 @@
     margin: 0 auto;
 }
 
-.header_container img{
+.header_container img {
     cursor: pointer;
 }
+
 .nav {
     display: flex;
     gap: 10px;
@@ -36,7 +37,7 @@
     color: #fff;
     background-color: #FED494;
     border-radius: 50px;
-    transition:  all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 
@@ -44,4 +45,23 @@
     background-color: #FED494;
     color: #fff;
     border-radius: 50px;
-  }
+}
+
+@media screen and (max-width: 1537px) {
+    .header {
+        height: 55px;
+    }
+
+    .header_container {
+        height: 55px;
+    }
+
+    .nav a {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    .header_container img {
+        max-width: 60px;
+    }
+}

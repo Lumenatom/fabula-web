@@ -281,3 +281,24 @@ h3 {
 .point_5:hover svg {
     fill: rgb(64, 231, 209);
 }
+
+@media screen and (max-width: 1537px) {
+    .map_wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+    }
+
+    .map_block h1 {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+
+    .map_content {
+        padding-top: 50px;
+    }
+
+    .map_content img {
+        max-height: 80vh;
+    }
+}

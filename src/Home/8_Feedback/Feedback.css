@@ -136,13 +136,44 @@
     font-weight: 400;
     font-size: 25px;
     line-height: 50px;
-
     color: #4F4F4F;
-
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .left_block_content_feedback button:hover {
     background: #FFF;
     color: #4F4F4F;
+}
+
+@media screen and (max-width: 1537px) {
+    .feedback_content {
+        gap: 45px;
+    }
+
+    .left_block_feedback h4 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .left_block_content_feedback input {
+        width: 550px;
+        height: 45px;
+        font-size: 20px;
+    }
+
+    .left_block_feedback {
+        width: 700px;
+        height: 300px;
+    }
+
+    .left_block_feedback p {
+        font-size: 14px;
+    }
+
+    .left_block_content_feedback button {
+        width: 155px;
+        height: 50px;
+        margin-top: 10px;
+        font-size: 18px;
+    }
 }

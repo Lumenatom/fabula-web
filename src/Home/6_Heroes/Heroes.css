@@ -24,45 +24,49 @@
 }
 
 .heroes_content {
-display: flex;
-align-items: center;
-justify-content: space-between;
-width: 100%;
-}
-
-.heroes_left_block{
     display: flex;
-justify-content: space-between;
-width: 45%;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.heroes_left_block {
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
 
 }
-.heroes_right_block{
+
+.heroes_right_block {
     display: flex;
     justify-content: space-between;
     gap: 30px;
-width: 55%;
+    width: 55%;
 }
-.button{
+
+.button {
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
 }
-.images img{
+
+.images img {
     max-height: 900px;
 }
 
-.heroes_title h2{
+.heroes_title h2 {
     font-family: 'Luckiest Guy';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 40px;
-color: #FFFFFF;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-margin-top: 200px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 200px;
 }
-.heroes_title h5{
+
+.heroes_title h5 {
     font-family: 'Merriweather';
     font-style: normal;
     font-weight: 700;
@@ -72,42 +76,89 @@ margin-top: 200px;
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.heroes_content_title{
+
+.heroes_content_title {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.heroes_description{
-background: rgba(0, 0, 0, 0.46);
-border-radius: 20px;
-padding: 30px;
+
+.heroes_description {
+    background: rgba(0, 0, 0, 0.46);
+    border-radius: 20px;
+    padding: 30px;
 }
-.heroes_description div{
+
+.heroes_description div {
     display: flex;
     align-items: center;
     gap: 5px;
 }
-.heroes_description div span{
+
+.heroes_description div span {
     font-family: 'Merriweather';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 15px;
-color: #29B1EC;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 15px;
+    color: #29B1EC;
 }
-.heroes_description div h2{
+
+.heroes_description div h2 {
     font-family: 'Merriweather';
     font-style: normal;
     font-size: 18px;
     line-height: 15px;
     color: #FFFFFF;
 }
-.heroes_skills{
+
+.heroes_skills {
     margin-bottom: 120px;
     display: flex;
     justify-content: flex-end;
 }
 
-.heroes_skills img{
-width: 35%;
+.heroes_skills img {
+    width: 35%;
+}
+
+@media screen and (max-width: 1537px) {
+    .heroes_content_title {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .images img {
+        max-height: 680px;
+    }
+
+    .heroes_skills img {
+        width: 65%;
+        height: 210px;
+    }
+
+    .heroes_skills {
+        width: 30%;
+        margin-bottom: 0px;
+    }
+
+    .heroes_description {
+        padding: 15px;
+        width: 55%;
+    }
+
+    .heroes_title h2 {
+        font-size: 34px;
+        margin-top: 0px;
+    }
+
+    .heroes_description div span {
+        font-size: 16px;
+    }
+
+    .heroes_description div h2 {
+        font-size: 14px;
+    }
 }

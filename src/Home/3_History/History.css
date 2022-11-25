@@ -1,7 +1,8 @@
-h5{
+h5 {
     margin: 40px 0 0 0;
     padding: 0;
 }
+
 .history {
     width: 100vw;
     height: 100vh;
@@ -18,13 +19,14 @@ h5{
     height: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 200px 140px 0;    
+    padding: 200px 140px 0;
 }
 
 .history_timeline {
     position: relative;
 
 }
+
 .history_timeline span {
     background-color: white;
     border-radius: 50%;
@@ -32,6 +34,7 @@ h5{
     cursor: pointer;
 
 }
+
 .history_timeline h4 {
     color: white;
     font-family: 'Merriweather';
@@ -53,54 +56,59 @@ h5{
     align-items: center;
     gap: 25px;
     position: absolute;
-    top: 0;
+    top: 5%;
     left: -77%;
 }
+
 .history_timeline_point2 {
     display: flex;
     align-items: center;
     gap: 25px;
     position: absolute;
-    top: 100px;
+    top: 15%;
     left: -77%;
 
 }
+
 .history_timeline_point3 {
     display: flex;
     align-items: center;
     gap: 25px;
     position: absolute;
-    top: 230px;
+    top: 25%;
     left: -77%;
 
 
 }
+
 .history_timeline_point4 {
     display: flex;
     align-items: center;
     gap: 25px;
     position: absolute;
-    top: 370px;
+    top: 40%;
     left: -77%;
 
 
 }
+
 .history_timeline_point5 {
     display: flex;
     align-items: center;
     gap: 25px;
     position: absolute;
-    top: 500px;
+    top: 55%;
     left: -77%;
 
 
 }
+
 .history_timeline_point6 {
     display: flex;
     align-items: center;
     gap: 25px;
     position: absolute;
-    top: 650px;
+    top: 70%;
     left: -77%;
 
 
@@ -118,7 +126,8 @@ h5{
 
 
 }
-.history_text button{
+
+.history_text button {
     width: 218.6px;
     height: 62.96px;
     background: #FFFFFF;
@@ -131,7 +140,8 @@ h5{
     transition: all 3s linear;
 
 }
-.history_text button span{
+
+.history_text button span {
     font-family: 'Merriweather';
     font-style: normal;
     font-weight: 700;
@@ -172,13 +182,61 @@ h5{
     z-index: 3;
 }
 
-.history_timeline .active_span{
+.history_timeline .active_span {
     background-color: #FED494;
     transition: all 0.2s linear;
 
 }
+
 .history_timeline .active_text {
     color: #FED494;
     transition: all 0.2s linear;
 
+}
+
+@media screen and (max-width: 1537px) {
+    .history_timeline img {
+        max-height: 80vh;
+    }
+
+    .history_timeline_point1 {
+        left: -115%;
+    }
+
+    .history_timeline_point2 {
+        left: -115%;
+    }
+
+    .history_timeline_point3 {
+        left: -115%;
+    }
+
+    .history_timeline_point4 {
+        left: -115%;
+    }
+
+    .history_timeline_point5 {
+        left: -115%;
+    }
+
+    .history_timeline_point6 {
+        left: -115%;
+    }
+
+    .history_timeline_content img {
+        max-width: 550px;
+    }
+
+    .history_text {
+        max-width: 505px;
+    }
+
+    .history_text button {
+        width: 160.6px;
+        height: 42.96px;
+    }
+
+    .history_text button span {
+        font-size: 16px;
+    }
 }

@@ -78,3 +78,24 @@
     line-height: 40px;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 1537px) {
+    .icons_footer {
+        display: flex;
+        gap: 30px;
+        margin-top: 50px;
+    }
+
+    .icons_footer img {
+        width: 40px;
+    }
+
+    .links_footer a {
+        font-size: 14px;
+    }
+
+    .back_footer h6 {
+        font-size: 14px;
+        margin: 0;
+    }
+}

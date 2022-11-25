@@ -232,3 +232,97 @@
     width: 464px;
     height: 281px;
 }
+
+@media screen and (max-width: 1537px) {
+    .gameDesignDeck_content {
+        margin-top: 95px;
+    }
+
+    .left_block button {
+        position: absolute;
+        max-width: 250px;
+        max-height: 50px;
+        top: -4%;
+        left: 28%;
+        font-size: 24px;
+    }
+
+    .right_block button {
+        position: absolute;
+        max-width: 250px;
+        max-height: 50px;
+        top: -4%;
+        left: 28%;
+        font-size: 24px;
+    }
+
+    .left_block_content h2 {
+        font-size: 18px;
+    }
+
+    .right_block_content h2 {
+        font-size: 18px;
+    }
+
+    ul {
+        margin-top: 0;
+    }
+
+    .left_block_content ul li {
+        font-size: 16px;
+    }
+
+    .right_block_content ul li {
+        font-size: 16px;
+    }
+
+    .left_block img {
+        width: 327px;
+        height: 195px;
+    }
+
+    .right_block img {
+        width: 327px;
+        height: 195px;
+    }
+
+    .left_block {
+        width: 441.469px;
+        height: 463.875px;
+    }
+
+    .right_block {
+        width: 441.469px;
+        height: 463.875px;
+    }
+
+    .left_block_content a {
+        font-size: 16px;
+        width: 204px;
+        height: 53px;
+    }
+
+    .right_block_content a {
+        font-size: 16px;
+        width: 204px;
+        height: 53px;
+    }
+
+    .gameDesignDeck_content {
+        gap: 0;
+        column-gap: 50px;
+    }
+
+    .linkGameDeck {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .gameDesignDeck {
+        height: 100%;
+    }
+
+    .gameDesignDeck_wrapper {
+        height: 100%;
+    }
+}

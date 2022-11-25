@@ -242,3 +242,82 @@
 .discord_icon img {
     width: 250px;
 }
+
+@media screen and (max-width: 1537px) {
+    .community_content {
+        gap: 50px;
+    }
+
+    .title_comunity {
+        font-size: 34px;
+        margin: 50px 0 0 0;
+    }
+
+    .left_block_community {
+        width: 430px;
+        height: 400px;
+    }
+
+    .right_block_community {
+        width: 430px;
+        height: 400px;
+    }
+
+    .left_block_community button {
+        height: 60px;
+        font-size: 24px;
+    }
+
+    .right_block_community button {
+        height: 60px;
+        font-size: 24px;
+    }
+
+    .left_block_content_community ul li {
+        font-size: 16px;
+    }
+
+    .right_block_content_community ul li {
+        font-size: 16px;
+    }
+
+    .left_block_content_community .discord_icon {
+        background: 0;
+        width: 0px;
+        height: 0px;
+    }
+
+    .right_block_content_community .dcp_icon {
+        background: 0;
+        width: 0px;
+        height: 0px;
+    }
+
+    .dcp_icon img {
+        width: 200px;
+    }
+
+    .discord_icon img {
+        width: 200px;
+    }
+
+    .left_block_content_community a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 155px;
+        height: 55px;
+        margin-top: 0px;
+        font-size: 18px;
+    }
+
+    .right_block_content_community a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 155px;
+        height: 55px;
+        margin-top: 0px;
+        font-size: 18px;
+    }
+}

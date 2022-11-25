@@ -17,6 +17,7 @@
 .welcome_content {
     padding-top: 120px;
 }
+
 .container {
     display: flex;
     margin: 0 auto;
@@ -31,6 +32,7 @@
     height: 200px;
     margin-bottom: -20px;
 }
+
 .welcome_fabula {
     height: 195px;
     width: 840px;
@@ -95,6 +97,7 @@
     fill: #fff;
 
 }
+
 .socials svg:hover {
     fill: #FED494;
     transition: all 0.5s ease;
@@ -103,3 +106,32 @@
 
 
 
+@media screen and (max-width: 1537px) {
+    .welcome_bird {
+        width: 105px;
+        height: 114px;
+    }
+
+    .welcome_subtitle {
+        font-size: 28px;
+    }
+
+    .welcome_fabula {
+        height: 145px;
+        width: 540px;
+    }
+
+    .welcome_title {
+        font-size: 16px;
+        max-width: 655px;
+    }
+
+    .btn a {
+        font-size: 16px;
+    }
+
+    .socials svg {
+        width: 35px;
+        height: 35px;
+    }
+}

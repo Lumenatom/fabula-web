@@ -56,7 +56,7 @@ const GameDesignDeck = () => {
                                 </a>
                             </div>
                         </div>
-                        <a>Join Discord</a>
+                        <a className="linkGameDeck">Join Discord</a>
                     </div>
                 </div>
             </div>
