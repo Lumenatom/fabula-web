@@ -326,3 +326,86 @@
         height: 100%;
     }
 }
+
+@media screen and (max-width: 1025px) {
+    .gameDesignDeck_content {
+        margin: 0;
+        padding: 0;
+        padding-top: 50px;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .gameDesignDeck_content a {
+        margin-top: 0;
+    }
+
+    .left_block_content h2 {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .right_block_content h2 {
+        font-size: 16px;
+        margin-bottom: 0;
+
+    }
+
+    ul {
+        margin-top: 0;
+    }
+
+    .left_block_content ul li {
+        font-size: 14px;
+    }
+
+    .right_block_content ul li {
+        font-size: 14px;
+    }
+
+    .left_block img {
+        width: 300px;
+        height: 175px;
+        margin-bottom: 25px;
+    }
+
+    .right_block img {
+        width: 300px;
+        height: 175px;
+        margin-bottom: 25px;
+
+    }
+
+    .left_block {
+        width: 395px;
+        height: 440px;
+    }
+
+    .right_block {
+        width: 395px;
+        height: 470px;
+    }
+
+    .left_block_content a {
+        font-size: 16px;
+        width: 204px;
+        height: 53px;
+    }
+
+    .right_block_content a {
+        font-size: 16px;
+        width: 204px;
+        height: 53px;
+    }
+
+    .left_block button {
+        left: 24%;
+        font-size: 20px;
+    }
+
+    .right_block button {
+        left: 24%;
+        font-size: 20px;
+    }
+}

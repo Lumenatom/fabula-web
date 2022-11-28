@@ -65,3 +65,23 @@
         max-width: 60px;
     }
 }
+
+@media screen and (max-width: 1025px) {
+    .header {
+        height: 40px;
+    }
+
+    .header_container {
+        height: 40px;
+        padding: 0 10px;
+    }
+
+    .nav a {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    .header_container img {
+        max-width: 40px;
+    }
+}

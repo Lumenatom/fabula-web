@@ -3,7 +3,7 @@
   max-width: 1920px;
   overflow: hidden;
 
-      background-image: url(./img/bg.png);
-   background-size: cover;
+  background-image: url(./img/bg.png);
+  background-size: cover;
   background-repeat: no-repeat;
 }

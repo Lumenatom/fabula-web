@@ -321,3 +321,64 @@
         font-size: 18px;
     }
 }
+
+@media screen and (max-width: 1025px) {
+    .community {
+        height: 100%;
+    }
+
+    .community_wrapper {
+        height: 100%;
+    }
+
+    .community_content {
+        gap: 30px;
+    }
+
+    .title_comunity {
+        font-size: 24px;
+    }
+
+    .wraper_blocks_community {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .dcp_icon img {
+        width: 150px;
+    }
+
+    .discord_icon img {
+        width: 150px;
+    }
+
+    .left_block_community {
+        width: 390px;
+        height: 350px;
+    }
+
+    .right_block_community {
+        width: 390px;
+        height: 350px;
+    }
+
+    .right_block_community button {
+        font-size: 20px;
+    }
+
+    .left_block_community button {
+        font-size: 20px;
+    }
+
+    .right_block_content_community a {
+        width: 125px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .left_block_content_community a {
+        width: 125px;
+        height: 50px;
+        font-size: 16px;
+    }
+}

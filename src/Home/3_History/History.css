@@ -240,3 +240,128 @@ h5 {
         font-size: 16px;
     }
 }
+
+@media screen and (max-width: 1025px) {
+    .history_timeline_point1 {
+        left: -135%;
+    }
+
+    .history_timeline_point2 {
+        left: -135%;
+    }
+
+    .history_timeline_point3 {
+        left: -135%;
+    }
+
+    .history_timeline_point4 {
+        left: -135%;
+    }
+
+    .history_timeline_point5 {
+        left: -135%;
+    }
+
+    .history_timeline_point6 {
+        left: -135%;
+    }
+
+    .history_timeline_content img {
+        max-width: 350px;
+        left: 35%;
+        bottom: 0;
+    }
+
+    .history_text {
+        max-width: 305px;
+    }
+
+    .history_text button {
+        width: 120.6px;
+        height: 37.96px;
+    }
+
+    .history_text button span {
+        font-size: 14px;
+    }
+
+    .history_text p {
+        font-size: 14px;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+        width: 300px;
+        display: flex;
+        align-items: center;
+    }
+
+    .history_text h5 {
+        font-size: 20px;
+        color: #FED494;
+        margin: 20px 0 0 0;
+    }
+
+    .history_timeline h4 {
+        font-size: 14px;
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .history {
+        padding: 50px 0 0 0;
+    }
+
+    .history_wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 20px;
+        align-items: flex-start;
+    }
+
+    .history_timeline_content img {
+        bottom: 18%;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .history {
+        /* width: 100%;
+        height: 100%; */
+    }
+
+    .history_wrapper {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .history_timeline img {
+        display: none;
+    }
+
+    .history_timeline_point1 {
+        position: fixed;
+    }
+
+    .history_timeline_point2 {
+        position: fixed;
+    }
+
+    .history_timeline_point3 {
+        position: fixed;
+    }
+
+    .history_timeline_point4 {
+        position: fixed;
+    }
+
+    .history_timeline_point5 {
+        position: fixed;
+    }
+
+    .history_timeline {
+        display: flex;
+        gap: 20px;
+    }
+}
