@@ -1,355 +1,374 @@
 .map {
-    width: 100vw;
-    height: 100vh;
-    /* background-image: url(../../img/2_bg.jpg);
+  width: 100vw;
+  height: 100vh;
+  /* background-image: url(../../img/2_bg.jpg);
     background-size: cover;
     background-repeat: no-repeat; */
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .modal_map_wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    z-index: 3;
-    /* background: rgba(0, 0, 0, 0.751); */
-    width: 100%;
-    height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 3;
+  background: rgba(0, 0, 0, 0.751);
+  width: 100%;
+  height: 100%;
 }
 
-
-
 .modal_map_conteiner {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    width: 960px;
-    height: 720px;
-    background: rgb(255, 255, 255);
-    border-radius: 20px;
-
-
+  position: relative;
+  display: flex;
+  justify-content: center;
+  max-width: 960px;
+  max-height: 720px;
+  background: rgb(255, 255, 255);
+  border-radius: 20px;
 }
 
 h3 {
-    color: red;
-    border: 3px solid red;
-    padding: 10px;
+  color: red;
+  border: 3px solid red;
+  padding: 10px;
 }
 
 .modal_map_bg {
-    background-color: white;
-    border-radius: 20px;
-    max-width: 960px;
-    max-height: 720px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  max-width: 960px;
+  max-height: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .modal_map_bg img {
-    max-width: 880px;
-    max-height: 600px;
-    margin: 70px;
-
+  max-width: 880px;
+  max-height: 600px;
+  margin: 70px;
 }
 
 .modal_map_content {
-    position: absolute;
-    background-color: #FED494;
-    border-radius: 30px;
-    padding: 10px 30px;
-    bottom: -6%;
-    max-width: 620px;
+  position: absolute;
+  background-color: #fed494;
+  border-radius: 30px;
+  padding: 10px 30px;
+  bottom: -6%;
+  max-width: 620px;
 }
 
 .modal_map_content h2 {
-    font-family: 'Merriweather';
-    font-weight: 400;
-    font-size: 32px;
-    align-items: center;
-    text-align: center;
-    color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: 'Merriweather';
+  font-weight: 400;
+  font-size: 32px;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .modal_map_content p {
-    font-family: 'Merriweather';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    align-items: center;
-    text-align: center;
-    color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-
-
 .map_wrapper {
-    width: 100vw;
-    height: 100vh;
-    /* background-color: rgba(0, 0, 0, 20%); */
+  width: 100vw;
+  height: 100vh;
+  /* background-color: rgba(0, 0, 0, 20%); */
 }
 
 .map_content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .map_block svg {
-    fill: red;
+  fill: red;
 }
 
 .map_block {
-    position: relative;
+  position: relative;
 }
 
 .map_block h1 {
-    font-family: 'Luckiest Guy';
-    font-weight: 400;
-    font-size: 40px;
-    text-align: center;
-    color: #FFFFFF;
-    position: absolute;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    padding-left: 50px;
-    padding-top: 25px;
-    white-space: nowrap;
-
+  font-family: 'Luckiest Guy';
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding-left: 50px;
+  padding-top: 25px;
+  white-space: nowrap;
 }
 
 .point_1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  cursor: pointer;
 }
 
 .point_1 svg {
-    position: relative;
-    transition: all 0.5s ease;
+  position: relative;
+  transition: all 0.5s ease;
 }
 
 .point_1 img {
-    display: none;
-    position: absolute;
-    top: -340%;
-    left: -165%;
-    transition: all 0.5s ease;
-    z-index: 2;
+  display: none;
+  position: absolute;
+  top: -340%;
+  left: -165%;
+  transition: all 0.5s ease;
+  z-index: 2;
 }
 
 .point_1:hover img {
-    display: flex;
-    transition: all 0.5s ease;
+  display: flex;
+  transition: all 0.5s ease;
 }
 
 .point_1:hover svg {
-    fill: rgb(64, 231, 209);
-
+  fill: rgb(64, 231, 209);
 }
 
 .point_2 {
-    position: absolute;
-    top: 20%;
-    left: 40%;
-    cursor: pointer;
-
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  cursor: pointer;
 }
 
 .point_2 svg {
-    position: relative;
-    transition: all 0.5s ease;
+  position: relative;
+  transition: all 0.5s ease;
 }
 
 .point_2 img {
-    display: none;
-    position: absolute;
-    top: -340%;
-    left: -165%;
-    transition: all 0.5s ease;
-    z-index: 2;
+  display: none;
+  position: absolute;
+  top: -340%;
+  left: -165%;
+  transition: all 0.5s ease;
+  z-index: 2;
 }
 
 .point_2:hover img {
-    display: flex;
-    transition: all 0.5s ease;
+  display: flex;
+  transition: all 0.5s ease;
 }
 
 .point_2:hover svg {
-    fill: rgb(64, 231, 209);
+  fill: rgb(64, 231, 209);
 }
 
-
 .point_3 {
-    position: absolute;
-    top: 80%;
-    left: 60%;
-    cursor: pointer;
-
+  position: absolute;
+  top: 80%;
+  left: 60%;
+  cursor: pointer;
 }
 
 .point_3 svg {
-    position: relative;
-    transition: all 0.5s ease;
+  position: relative;
+  transition: all 0.5s ease;
 }
 
 .point_3 img {
-    display: none;
-    position: absolute;
-    top: -340%;
-    left: -165%;
-    transition: all 0.5s ease;
-    z-index: 2;
+  display: none;
+  position: absolute;
+  top: -340%;
+  left: -165%;
+  transition: all 0.5s ease;
+  z-index: 2;
 }
 
 .point_3:hover img {
-    display: flex;
-    transition: all 0.5s ease;
+  display: flex;
+  transition: all 0.5s ease;
 }
 
 .point_3:hover svg {
-    fill: rgb(64, 231, 209);
+  fill: rgb(64, 231, 209);
 }
 
 .point_4 {
-    position: absolute;
-    top: 20%;
-    left: 70%;
-    cursor: pointer;
-
+  position: absolute;
+  top: 20%;
+  left: 70%;
+  cursor: pointer;
 }
 
-
 .point_4 svg {
-    position: relative;
-    transition: all 0.5s ease;
+  position: relative;
+  transition: all 0.5s ease;
 }
 
 .point_4 img {
-    display: none;
-    position: absolute;
-    top: -340%;
-    left: -165%;
-    transition: all 0.5s ease;
-    z-index: 2;
+  display: none;
+  position: absolute;
+  top: -340%;
+  left: -165%;
+  transition: all 0.5s ease;
+  z-index: 2;
 }
 
 .point_4:hover img {
-    display: flex;
-    transition: all 0.5s ease;
+  display: flex;
+  transition: all 0.5s ease;
 }
 
 .point_4:hover svg {
-    fill: rgb(64, 231, 209);
+  fill: rgb(64, 231, 209);
 }
 
 .point_5 {
-    position: absolute;
-    top: 60%;
-    left: 20%;
-    cursor: pointer;
-
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  cursor: pointer;
 }
 
 .point_5 svg {
-    position: relative;
-    transition: all 0.5s ease;
+  position: relative;
+  transition: all 0.5s ease;
 }
 
 .point_5 img {
-    display: none;
-    position: absolute;
-    top: -340%;
-    left: -165%;
-    transition: all 0.5s ease;
-    z-index: 2;
+  display: none;
+  position: absolute;
+  top: -340%;
+  left: -165%;
+  transition: all 0.5s ease;
+  z-index: 2;
 }
 
 .point_5:hover img {
-    display: flex;
-    transition: all 0.5s ease;
+  display: flex;
+  transition: all 0.5s ease;
 }
 
 .point_5:hover svg {
-    fill: rgb(64, 231, 209);
+  fill: rgb(64, 231, 209);
 }
 
 @media screen and (max-width: 1537px) {
-    .map_wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: stretch;
-    }
+  .map_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+  }
 
-    .map_block h1 {
-        font-size: 30px;
-        margin-bottom: 50px;
-    }
+  .map_block h1 {
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
 
-    .map_content {
-        padding-top: 50px;
-    }
+  .map_content {
+    padding-top: 50px;
+  }
 
-    .map_content img {
-        max-height: 80vh;
-    }
+  .map_content img {
+    max-height: 80vh;
+  }
 }
 
 @media screen and (max-width: 1025px) {
-    .map_content {
-        padding-top: 0px;
-    }
+  .map_content {
+    padding-top: 0px;
+  }
 
-    .map_content img {
-        max-height: 70vh;
-    }
+  .map_content img {
+    max-height: 70vh;
+  }
 
-    .map_block h1 {
-        margin: 0;
-        padding-left: 0;
-        top: -5%;
-    }
+  .map_block h1 {
+    margin: 0;
+    padding-left: 0;
+    top: -5%;
+  }
 }
 
 @media screen and (max-width: 769px) {
-    .map_content img {
-        max-height: 55vh;
-    }
+  .map_content img {
+    max-height: 55vh;
+  }
 
-    .map_block h1 {
-        font-size: 24px;
-    }
+  .map_block h1 {
+    font-size: 24px;
+  }
+  .modal_map_bg img {
+    max-width: 462px;
+    max-height: 300px;
+    margin: 30px;
+  }
+  .modal_map_content {
+    padding: 0 15px;
+    bottom: -15%;
+    max-width: 300px;
+  }
+  .modal_map_content h2 {
+    font-size: 20px;
+    margin: 10px;
+  }
+  .modal_map_content p {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 426px) {
-    .map {
-        width: 100%;
-        height: 100%;
-    }
+  .modal_map_bg img {
+    max-width: 315px;
+    max-height: 300px;
+    margin: 15px;
+  }
+  .modal_map_content {
+    padding: 0 15px;
+    bottom: -50%;
+    max-width: 300px;
+  }
+  .modal_map_content h2 {
+    font-size: 20px;
+    margin: 10px;
+  }
 
-    .map_wrapper {
-        width: 100%;
-        height: 100%;
-    }
+  .modal_map_wrapper {
+    height: 100000vh;
+  }
+  .map {
+    width: 100%;
+    height: 100%;
+  }
 
-    .map_block h1 {
-        font-size: 18px;
-        left: -7%;
-    }
+  .map_wrapper {
+    width: 100%;
+    height: 100%;
+  }
 
-    .map_character_xsen {
-        display: none;
-    }
+  .map_block h1 {
+    font-size: 18px;
+    left: -7%;
+  }
 
-    .map_character_people {
-        display: none;
-    }
+  .map_character_xsen {
+    display: none;
+  }
+
+  .map_character_people {
+    display: none;
+  }
 }

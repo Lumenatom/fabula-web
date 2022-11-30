@@ -1,367 +1,366 @@
 h5 {
-    margin: 40px 0 0 0;
-    padding: 0;
+  margin: 40px 0 0 0;
+  padding: 0;
 }
 
 .history {
-    width: 100vw;
-    height: 100vh;
-    /* background-image: url(../../img/3_bg.jpg);
+  width: 100vw;
+  height: 100vh;
+  /* background-image: url(../../img/3_bg.jpg);
     background-size: cover;
     background-repeat: no-repeat; */
-    display: flex;
-    position: relative;
-    align-items: center;
+  display: flex;
+  position: relative;
+  align-items: center;
 }
 
 .history_wrapper {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 200px 140px 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 200px 140px 0;
 }
 
 .history_timeline {
-    position: relative;
-
+  position: relative;
 }
 
 .history_timeline span {
-    background-color: white;
-    border-radius: 50%;
-    padding: 15px;
-    cursor: pointer;
-
+  background-color: white;
+  border-radius: 50%;
+  padding: 15px;
+  cursor: pointer;
 }
 
 .history_timeline h4 {
-    color: white;
-    font-family: 'Merriweather';
-    font-weight: 700;
-    font-size: 20px;
-    width: 255px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    cursor: pointer;
-
+  color: white;
+  font-family: 'Merriweather';
+  font-weight: 700;
+  font-size: 20px;
+  width: 255px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
 }
 
 .history_timeline img {
-    max-height: 750px;
-
+  max-height: 750px;
 }
 
 .history_timeline_point1 {
-    display: flex;
-    align-items: center;
-    gap: 25px;
-    position: absolute;
-    top: 5%;
-    left: -77%;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  position: absolute;
+  top: 5%;
+  left: -77%;
 }
 
 .history_timeline_point2 {
-    display: flex;
-    align-items: center;
-    gap: 25px;
-    position: absolute;
-    top: 15%;
-    left: -77%;
-
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  position: absolute;
+  top: 15%;
+  left: -77%;
 }
 
 .history_timeline_point3 {
-    display: flex;
-    align-items: center;
-    gap: 25px;
-    position: absolute;
-    top: 25%;
-    left: -77%;
-
-
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  position: absolute;
+  top: 25%;
+  left: -77%;
 }
 
 .history_timeline_point4 {
-    display: flex;
-    align-items: center;
-    gap: 25px;
-    position: absolute;
-    top: 40%;
-    left: -77%;
-
-
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  position: absolute;
+  top: 40%;
+  left: -77%;
 }
 
 .history_timeline_point5 {
-    display: flex;
-    align-items: center;
-    gap: 25px;
-    position: absolute;
-    top: 55%;
-    left: -77%;
-
-
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  position: absolute;
+  top: 55%;
+  left: -77%;
 }
 
 .history_timeline_point6 {
-    display: flex;
-    align-items: center;
-    gap: 25px;
-    position: absolute;
-    top: 70%;
-    left: -77%;
-
-
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  position: absolute;
+  top: 70%;
+  left: -77%;
 }
 
 .history_text {
-    background: rgba(255, 255, 255, 0.44);
-    border-radius: 59px;
-    width: 600px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
-    padding-bottom: 50px;
-
-
+  background: rgba(255, 255, 255, 0.44);
+  border-radius: 59px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  padding-bottom: 50px;
 }
 
 .history_text button {
-    width: 218.6px;
-    height: 62.96px;
-    background: #FFFFFF;
-    border: none;
-    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
-    border-radius: 50px;
-    position: absolute;
-    bottom: -6%;
-    right: 5%;
-    transition: all 3s linear;
-
+  width: 218.6px;
+  height: 62.96px;
+  background: #ffffff;
+  border: none;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  position: absolute;
+  bottom: -6%;
+  right: 5%;
+  transition: all 3s linear;
 }
 
 .history_text button span {
-    font-family: 'Merriweather';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 30px;
-    color: #4F4F4F;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #4f4f4f;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .history_text h5 {
-    font-family: 'Merriweather';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 28px;
-    color: #FED494;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  color: #fed494;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .history_text p {
-    font-family: 'Merriweather';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    width: 450px;
-    display: flex;
-    align-items: center;
-
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 450px;
+  display: flex;
+  align-items: center;
 }
 
 .history_timeline_content img {
-    position: absolute;
-    width: 800px;
-    left: 30%;
-    bottom: 0;
-    z-index: 3;
+  position: absolute;
+  width: 800px;
+  left: 30%;
+  bottom: 0;
+  z-index: 3;
 }
 
 .history_timeline .active_span {
-    background-color: #FED494;
-    transition: all 0.2s linear;
-
+  background-color: #fed494;
+  transition: all 0.2s linear;
 }
 
 .history_timeline .active_text {
-    color: #FED494;
-    transition: all 0.2s linear;
-
+  color: #fed494;
+  transition: all 0.2s linear;
 }
 
 @media screen and (max-width: 1537px) {
-    .history_timeline img {
-        max-height: 80vh;
-    }
+  .history_timeline img {
+    max-height: 80vh;
+  }
 
-    .history_timeline_point1 {
-        left: -115%;
-    }
+  .history_timeline_point1 {
+    left: -115%;
+  }
 
-    .history_timeline_point2 {
-        left: -115%;
-    }
+  .history_timeline_point2 {
+    left: -115%;
+  }
 
-    .history_timeline_point3 {
-        left: -115%;
-    }
+  .history_timeline_point3 {
+    left: -115%;
+  }
 
-    .history_timeline_point4 {
-        left: -115%;
-    }
+  .history_timeline_point4 {
+    left: -115%;
+  }
 
-    .history_timeline_point5 {
-        left: -115%;
-    }
+  .history_timeline_point5 {
+    left: -115%;
+  }
 
-    .history_timeline_point6 {
-        left: -115%;
-    }
+  .history_timeline_point6 {
+    left: -115%;
+  }
 
-    .history_timeline_content img {
-        max-width: 550px;
-    }
+  .history_timeline_content img {
+    max-width: 550px;
+  }
 
-    .history_text {
-        max-width: 505px;
-    }
+  .history_text {
+    max-width: 505px;
+  }
 
-    .history_text button {
-        width: 160.6px;
-        height: 42.96px;
-    }
+  .history_text button {
+    width: 160.6px;
+    height: 42.96px;
+  }
 
-    .history_text button span {
-        font-size: 16px;
-    }
+  .history_text button span {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 1025px) {
-    .history_timeline_point1 {
-        left: -135%;
-    }
+  .history_timeline_point1 {
+    left: -135%;
+  }
 
-    .history_timeline_point2 {
-        left: -135%;
-    }
+  .history_timeline_point2 {
+    left: -135%;
+  }
 
-    .history_timeline_point3 {
-        left: -135%;
-    }
+  .history_timeline_point3 {
+    left: -135%;
+  }
 
-    .history_timeline_point4 {
-        left: -135%;
-    }
+  .history_timeline_point4 {
+    left: -135%;
+  }
 
-    .history_timeline_point5 {
-        left: -135%;
-    }
+  .history_timeline_point5 {
+    left: -135%;
+  }
 
-    .history_timeline_point6 {
-        left: -135%;
-    }
+  .history_timeline_point6 {
+    left: -135%;
+  }
 
-    .history_timeline_content img {
-        max-width: 350px;
-        left: 35%;
-        bottom: 0;
-    }
+  .history_timeline_content img {
+    max-width: 350px;
+    left: 35%;
+    bottom: 0;
+  }
 
-    .history_text {
-        max-width: 305px;
-    }
+  .history_text {
+    max-width: 305px;
+  }
 
-    .history_text button {
-        width: 120.6px;
-        height: 37.96px;
-    }
+  .history_text button {
+    width: 120.6px;
+    height: 37.96px;
+  }
 
-    .history_text button span {
-        font-size: 14px;
-    }
+  .history_text button span {
+    font-size: 14px;
+  }
 
-    .history_text p {
-        font-size: 14px;
-        color: #FFFFFF;
-        text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
-        width: 300px;
-        display: flex;
-        align-items: center;
-    }
+  .history_text p {
+    font-size: 14px;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    width: 300px;
+    display: flex;
+    align-items: center;
+  }
 
-    .history_text h5 {
-        font-size: 20px;
-        color: #FED494;
-        margin: 20px 0 0 0;
-    }
+  .history_text h5 {
+    font-size: 20px;
+    color: #fed494;
+    margin: 20px 0 0 0;
+  }
 
-    .history_timeline h4 {
-        font-size: 14px;
-        width: 200px;
-    }
+  .history_timeline h4 {
+    font-size: 14px;
+    width: 200px;
+  }
 }
 
 @media screen and (max-width: 769px) {
-    .history {
-        padding: 50px 0 0 0;
-    }
+  .history {
+    padding: 50px 0 0 0;
+  }
 
-    .history_wrapper {
-        display: flex;
-        justify-content: space-between;
-        padding: 0px 20px;
-        align-items: flex-start;
-    }
+  .history_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    align-items: flex-start;
+  }
 
-    .history_timeline_content img {
-        bottom: 18%;
-    }
+  .history_timeline_content img {
+    bottom: 18%;
+  }
 }
 
 @media screen and (max-width: 426px) {
-    .history {
-        /* width: 100%;
-        height: 100%; */
-    }
+  .history {
+    width: 100%;
+    height: 100%;
+  }
 
-    .history_wrapper {
-        height: 100%;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
+  .history_text p {
+    font-size: 12px;
+    max-width: 300px;
+  }
+  .history_text {
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+  }
+  .history_timeline h4 {
+    max-width: 100%;
+  }
 
-    .history_timeline img {
-        display: none;
-    }
+  .history_wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
 
-    .history_timeline_point1 {
-        position: fixed;
-    }
+  .history_timeline img {
+  }
 
-    .history_timeline_point2 {
-        position: fixed;
-    }
+  .history_timeline_point1 {
+  }
 
-    .history_timeline_point3 {
-        position: fixed;
-    }
+  .history_timeline_point2 {
+  }
 
-    .history_timeline_point4 {
-        position: fixed;
-    }
+  .history_timeline_point3 {
+    top: 30%;
+  }
 
-    .history_timeline_point5 {
-        position: fixed;
-    }
+  .history_timeline_point4 {
+    top: 50%;
+  }
 
-    .history_timeline {
-        display: flex;
-        gap: 20px;
-    }
+  .history_timeline_point5 {
+    top: 67%;
+  }
+  .history_timeline_point6 {
+    top: 85%;
+  }
+
+  .history_timeline {
+    display: flex;
+    gap: 20px;
+  }
+  .history_timeline_content img {
+    max-width: 170px;
+    bottom: 0%;
+    right: 0%;
+    left: 60%;
+  }
 }

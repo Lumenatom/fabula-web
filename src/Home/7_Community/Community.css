@@ -1,384 +1,422 @@
 .community {
-    width: 100vw;
-    height: 100vh;
-    /* background-image: url(../../img/3_bg.jpg);
+  width: 100vw;
+  height: 100vh;
+  /* background-image: url(../../img/3_bg.jpg);
     background-size: cover;
     background-repeat: no-repeat; */
-
 }
 
 .community_wrapper {
-    width: 100vw;
-    height: 100vh;
-    /* background-color: rgba(0, 0, 0, 20%); */
+  width: 100vw;
+  height: 100vh;
+  /* background-color: rgba(0, 0, 0, 20%); */
 }
 
-
 .container {
-    display: flex;
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-    max-width: 1200px;
-    height: 100%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  height: 100%;
 }
 
 .community_content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 85px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 85px;
 }
 
 .community_content a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 218.6px;
-    height: 61.7px;
-    background: #FED494;
-    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
-    border-radius: 50px;
-    font-family: 'Merriweather';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 50px;
-    color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    cursor: pointer;
-    transition: all 0.3s linear;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 218.6px;
+  height: 61.7px;
+  background: #fed494;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 50px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: all 0.3s linear;
 }
 
 .community_content a:hover {
-    background: #FFFFFF;
-    color: #4F4F4F;
+  background: #ffffff;
+  color: #4f4f4f;
 }
 
 .left_block_community {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 529px;
-    height: 492px;
-    background: rgba(217, 217, 217, 0.44);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 70px;
-    margin-bottom: 90px;
-    position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 529px;
+  height: 492px;
+  background: rgba(217, 217, 217, 0.44);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 70px;
+  margin-bottom: 90px;
+  position: relative;
 }
 
 .left_block_community button {
-    position: absolute;
-    width: 100%;
-    height: 70px;
-    top: -6%;
-    left: 0%;
-    background: #FED494;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 25px;
-    font-family: 'Luckiest Guy';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 32px;
-    color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border: none;
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  top: -6%;
+  left: 0%;
+  background: #fed494;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  font-family: 'Luckiest Guy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 32px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
 }
 
-
 .left_block_content_community {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .left_block_content_community ul li {
-    text-align: start;
-    font-family: 'Merriweather';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 35px;
-    color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: start;
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .left_block_content_community a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 187px;
-    height: 63px;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
-    border-radius: 50px;
-    border-radius: 50px;
-    text-decoration: none;
-    margin-top: 15px;
-    transition: all 0.3s linear;
-    color: #4F4F4F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 187px;
+  height: 63px;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  border-radius: 50px;
+  text-decoration: none;
+  margin-top: 15px;
+  transition: all 0.3s linear;
+  color: #4f4f4f;
 }
 
 .left_block_content_community a:hover {
-    background: #FED494;
-    color: #4F4F4F;
+  background: #fed494;
+  color: #4f4f4f;
 }
 
 .right_block_community {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 529px;
-    height: 492px;
-    background: rgba(217, 217, 217, 0.44);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 70px;
-    position: relative;
-    margin-bottom: 90px;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 529px;
+  height: 492px;
+  background: rgba(217, 217, 217, 0.44);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 70px;
+  position: relative;
+  margin-bottom: 90px;
 }
 
 .right_block_community button {
-    position: absolute;
-    width: 100%;
-    height: 70px;
-    top: -6%;
-    left: 0%;
-    background: #FED494;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 25px;
-    font-family: 'Luckiest Guy';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 32px;
-    color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border: none;
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  top: -6%;
+  left: 0%;
+  background: #fed494;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  font-family: 'Luckiest Guy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 32px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
 }
 
-
 .right_block_content_community {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .right_block_content_community ul li {
-    text-align: start;
-    font-family: 'Merriweather';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 35px;
-    color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: start;
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .right_block_content_community a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Merriweather';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 50px;
-    color: #4F4F4F;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    width: 187px;
-    height: 63px;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
-    border-radius: 50px;
-    text-decoration: none;
-    margin-top: 15px;
-    transition: all 0.3s linear;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 50px;
+  color: #4f4f4f;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 187px;
+  height: 63px;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  text-decoration: none;
+  margin-top: 15px;
+  transition: all 0.3s linear;
 }
 
 .right_block_content_community a:hover {
-    background: #FED494;
-    color: #4F4F4F;
+  background: #fed494;
+  color: #4f4f4f;
 }
 
 .wraper_blocks_community {
-    display: flex;
-    gap: 80px;
+  display: flex;
+  gap: 80px;
 }
 
 .title_comunity {
-    font-family: 'Luckiest Guy';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 48px;
-    text-align: justify;
-    color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin: 100px 0 0 0;
+  font-family: 'Luckiest Guy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: justify;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 100px 0 0 0;
 }
 
 .dcp_icon {
-    position: absolute;
-    bottom: -8%;
+  position: absolute;
+  bottom: -8%;
 }
 
 .dcp_icon img {
-    width: 250px;
+  width: 250px;
 }
 
 .discord_icon {
-    position: absolute;
-    bottom: -8%;
+  position: absolute;
+  bottom: -8%;
 }
 
 .discord_icon img {
-    width: 250px;
+  width: 250px;
 }
 
 @media screen and (max-width: 1537px) {
-    .community_content {
-        gap: 50px;
-    }
+  .community_content {
+    gap: 50px;
+  }
 
-    .title_comunity {
-        font-size: 34px;
-        margin: 50px 0 0 0;
-    }
+  .title_comunity {
+    font-size: 34px;
+    margin: 50px 0 0 0;
+  }
 
-    .left_block_community {
-        width: 430px;
-        height: 400px;
-    }
+  .left_block_community {
+    width: 430px;
+    height: 400px;
+  }
 
-    .right_block_community {
-        width: 430px;
-        height: 400px;
-    }
+  .right_block_community {
+    width: 430px;
+    height: 400px;
+  }
 
-    .left_block_community button {
-        height: 60px;
-        font-size: 24px;
-    }
+  .left_block_community button {
+    height: 60px;
+    font-size: 24px;
+  }
 
-    .right_block_community button {
-        height: 60px;
-        font-size: 24px;
-    }
+  .right_block_community button {
+    height: 60px;
+    font-size: 24px;
+  }
 
-    .left_block_content_community ul li {
-        font-size: 16px;
-    }
+  .left_block_content_community ul li {
+    font-size: 16px;
+  }
 
-    .right_block_content_community ul li {
-        font-size: 16px;
-    }
+  .right_block_content_community ul li {
+    font-size: 16px;
+  }
 
-    .left_block_content_community .discord_icon {
-        background: 0;
-        width: 0px;
-        height: 0px;
-    }
+  .left_block_content_community .discord_icon {
+    background: 0;
+    width: 0px;
+    height: 0px;
+  }
 
-    .right_block_content_community .dcp_icon {
-        background: 0;
-        width: 0px;
-        height: 0px;
-    }
+  .right_block_content_community .dcp_icon {
+    background: 0;
+    width: 0px;
+    height: 0px;
+  }
 
-    .dcp_icon img {
-        width: 200px;
-    }
+  .dcp_icon img {
+    width: 200px;
+  }
 
-    .discord_icon img {
-        width: 200px;
-    }
+  .discord_icon img {
+    width: 200px;
+  }
 
-    .left_block_content_community a {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 155px;
-        height: 55px;
-        margin-top: 0px;
-        font-size: 18px;
-    }
+  .left_block_content_community a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 155px;
+    height: 55px;
+    margin-top: 0px;
+    font-size: 18px;
+  }
 
-    .right_block_content_community a {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 155px;
-        height: 55px;
-        margin-top: 0px;
-        font-size: 18px;
-    }
+  .right_block_content_community a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 155px;
+    height: 55px;
+    margin-top: 0px;
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 1025px) {
-    .community {
-        height: 100%;
-    }
+  .community {
+    height: 100%;
+  }
 
-    .community_wrapper {
-        height: 100%;
-    }
+  .community_wrapper {
+    height: 100%;
+  }
 
-    .community_content {
-        gap: 30px;
-    }
+  .community_content {
+    gap: 30px;
+  }
 
-    .title_comunity {
-        font-size: 24px;
-    }
+  .title_comunity {
+    font-size: 24px;
+  }
 
-    .wraper_blocks_community {
-        flex-direction: column;
-        gap: 60px;
-    }
+  .wraper_blocks_community {
+    flex-direction: column;
+    gap: 60px;
+  }
 
-    .dcp_icon img {
-        width: 150px;
-    }
+  .dcp_icon img {
+    width: 150px;
+  }
 
-    .discord_icon img {
-        width: 150px;
-    }
+  .discord_icon img {
+    width: 150px;
+  }
 
-    .left_block_community {
-        width: 390px;
-        height: 350px;
-    }
+  .left_block_community {
+    width: 390px;
+    height: 350px;
+  }
 
-    .right_block_community {
-        width: 390px;
-        height: 350px;
-    }
+  .right_block_community {
+    width: 390px;
+    height: 350px;
+  }
 
-    .right_block_community button {
-        font-size: 20px;
-    }
+  .right_block_community button {
+    font-size: 20px;
+  }
 
-    .left_block_community button {
-        font-size: 20px;
-    }
+  .left_block_community button {
+    font-size: 20px;
+  }
 
-    .right_block_content_community a {
-        width: 125px;
-        height: 50px;
-        font-size: 16px;
-    }
+  .right_block_content_community a {
+    width: 125px;
+    height: 50px;
+    font-size: 16px;
+  }
 
-    .left_block_content_community a {
-        width: 125px;
-        height: 50px;
-        font-size: 16px;
-    }
+  .left_block_content_community a {
+    width: 125px;
+    height: 50px;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 426px) {
+  .right_block_community {
+    margin-bottom: 120px;
+  }
+}
+@media screen and (max-width: 376px) {
+  .left_block_community {
+    width: 360px;
+    height: 350px;
+  }
+
+  .right_block_community {
+    width: 360px;
+    height: 350px;
+  }
+
+  .right_block_community button {
+    font-size: 20px;
+  }
+
+  .left_block_community button {
+    font-size: 20px;
+  }
+
+  .right_block_content_community a {
+    width: 125px;
+    height: 50px;
+    font-size: 16px;
+  }
+
+  .left_block_content_community a {
+    width: 125px;
+    height: 50px;
+    font-size: 16px;
+  }
+  .right_block_content_community ul li {
+    font-size: 14px;
+  }
+  .left_block_content_community ul li {
+    font-size: 14px;
+  }
+  .title_comunity {
+    font-size: 20px;
+  }
 }
