@@ -45,8 +45,21 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
-
+.closeIcon {
+  position: absolute;
+  fill: #737373;
+  width: 30px;
+  z-index: 99;
+  top: 2%;
+  right: 1.5%;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.closeIcon:hover {
+  fill: #fbb141;
+}
 .modal_map_bg img {
   max-width: 880px;
   max-height: 600px;
@@ -98,7 +111,12 @@ h3 {
 .map_block svg {
   fill: red;
 }
-
+.map_character_people {
+  max-width: 80%;
+}
+.map_character_xsen {
+  max-width: 80%;
+}
 .map_block {
   position: relative;
 }

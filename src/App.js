@@ -9,16 +9,16 @@ import Home from './Home/Home';
 function App() {
   const [activePage, setActivePage] = useState('home');
   const renderElement = () => {
-    if(activePage == 'home'){
+    if(activePage === 'home'){
       return  <Home setActivePage={setActivePage}/>
     }
-    if(activePage == 'collaborate'){
+    if(activePage === 'collaborate'){
       return  <Collaborate/>
     }
-    if(activePage == 'docs'){
+    if(activePage === 'docs'){
       return  <Docs/>
     }
-    if(activePage == 'contact'){
+    if(activePage === 'contact'){
       return  <Contact/>
     } return null
   }

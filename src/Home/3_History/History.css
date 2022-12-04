@@ -173,6 +173,9 @@ h5 {
   color: #fed494;
   transition: all 0.2s linear;
 }
+.history_btn {
+  cursor: pointer;
+}
 
 @media screen and (max-width: 1537px) {
   .history_timeline img {
