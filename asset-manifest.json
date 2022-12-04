@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fabula-web/static/css/main.ecb56a87.css",
-    "main.js": "/fabula-web/static/js/main.afed6082.js",
+    "main.css": "/fabula-web/static/css/main.b8a57e50.css",
+    "main.js": "/fabula-web/static/js/main.b4ddadba.js",
     "static/media/bg.png": "/fabula-web/static/media/bg.1daf1a732c939109a67f.png",
     "static/media/history_3.png": "/fabula-web/static/media/history_3.d0cef511017fae473e34.png",
     "static/media/smerta.png": "/fabula-web/static/media/smerta.52d8e9de5f00bdb64215.png",
@@ -41,6 +41,7 @@
     "static/media/skills_heroes_3.png": "/fabula-web/static/media/skills_heroes_3.f73057b1d1c5d5f762ae.png",
     "static/media/patreon.png": "/fabula-web/static/media/patreon.15e3a535eae03efe6e69.png",
     "static/media/logo.svg": "/fabula-web/static/media/logo.bc0107c3bbe47e8505c76ada4b29c163.svg",
+    "static/media/close.svg": "/fabula-web/static/media/close.7a965f0249a8c2086fe34b308c34ea99.svg",
     "static/media/discord.svg": "/fabula-web/static/media/discord.a576bda910da24f2d950169db0964ef6.svg",
     "static/media/discord_icon.svg": "/fabula-web/static/media/discord_icon.aec625fdc721a50f13b6a692022223e6.svg",
     "static/media/twitter.svg": "/fabula-web/static/media/twitter.b9722e4a8d00f6a0365ec686eeb556e7.svg",
@@ -53,11 +54,11 @@
     "static/media/arrow_icon_right.svg": "/fabula-web/static/media/arrow_icon_right.15655edb6ea7eb4337e5d71a3a31656c.svg",
     "static/media/point_map_icon.svg": "/fabula-web/static/media/point_map_icon.dbee858fdd129035eedc2893888c43f1.svg",
     "static/media/arrow_icon_left.svg": "/fabula-web/static/media/arrow_icon_left.539dbfa330228c981f76222396420296.svg",
-    "main.ecb56a87.css.map": "/fabula-web/static/css/main.ecb56a87.css.map",
-    "main.afed6082.js.map": "/fabula-web/static/js/main.afed6082.js.map"
+    "main.b8a57e50.css.map": "/fabula-web/static/css/main.b8a57e50.css.map",
+    "main.b4ddadba.js.map": "/fabula-web/static/js/main.b4ddadba.js.map"
   },
   "entrypoints": [
-    "static/css/main.ecb56a87.css",
-    "static/js/main.afed6082.js"
+    "static/css/main.b8a57e50.css",
+    "static/js/main.b4ddadba.js"
   ]
 }
